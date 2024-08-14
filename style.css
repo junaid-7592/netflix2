@@ -1,0 +1,482 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #000;
+  color: #fff;
+  overflow-x: hidden;
+  height: 3000px;
+  
+}
+div {
+  font-family: "poppins",sans-serif;
+}
+.header{
+  width: 100%;
+  height:120vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom:500px;
+  position:relative;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   padding-left: 100px;
+   padding-right: 100px;
+  
+}.logo{
+  width: 200px;
+  padding-top: 30px;
+  margin-left: 68px;
+  cursor:pointer;
+}
+nav button{
+  border: 0;
+  outline: 0;
+  
+  color: #fff;
+  padding:9px 20px;
+  font-size:  20px;
+  border-radius: 4px;
+  margin-left: 29px;
+  cursor: pointer;
+  position: relative;
+
+
+}
+.language-btn{
+  display:inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid#fff;
+  padding: 11px 10px 7px;
+  margin-top: 30px;
+  padding-left:40px ;
+}
+.language-btn img{
+  width: 10px;
+  margin-left: 10px;
+}
+.buttons{
+  margin-right: 50px;
+}
+
+
+.button-pic{
+position: absolute;
+right:415px ;
+top: 49px;
+}
+
+
+.language-btn-2 {
+  background-color:rgb(215, 23, 23);
+  width: 130px;
+}
+.header-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 280px;
+}
+.header-content h1{
+font-size: 60px;
+}
+.email-startbutton{
+  display: flex;
+  width: 1000px;
+  padding-top: 50px;
+  height: 40px;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.email-startbutton input{
+  padding: 30px 20px 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 500px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.email-startbutton button{
+  width: 280px;
+  height:60px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: red;
+  color: white;
+}
+
+.header-content h3{
+  font-family: "poppins",sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.div-h1 h1{
+  width: 1600px;
+  height: 98px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content p{
+  font: size 25px;
+
+}
+.line{
+  background: rgb(35,35,35);
+  width: 100%;
+  height: 8px;
+  
+}
+.para{
+  font-size: 30px;
+}
+.page2{
+  width: 100%;
+  height: 595px;
+  background:rgb(0, 0, 0);
+  padding-left: 180px; 
+
+  padding-top: 170px;
+  display: flex;
+  padding-bottom: 600px;
+
+}
+.left{
+  background:rgb(0, 0, 0) ;
+  width: 800px;
+  height: 222px;
+  margin-right: 10px;
+  
+}
+
+   
+.right img{
+width: 650.162px;
+padding-right: 130px;
+
+}
+.enjoy{
+  font-size:25px ;
+  width: 543.162;
+}
+
+.enjoy h1{
+  font-size: 60px;
+}
+.page3{
+  width: 100%;
+  height: 595px;
+  background:rgb(0, 0, 0);
+
+  padding: left 150px; ;
+  padding-top: 170px;
+  display: flex;
+  padding-bottom: 600px;
+  padding-right: 139px;
+}
+.left{
+  background:rgb(0, 0, 0) ;
+  width: 699px;
+  height: 500px;
+  margin-right: 20px;
+  
+ 
+}
+.right3{
+width: 492px;
+height: 200px;
+
+}
+.left3-image img{
+  
+width: 486px;
+height: 383px;
+margin-left: 212px;
+
+
+
+
+}
+.right3 h1{
+  padding-top: 16px;
+  font-size: 60px;
+  line-height: 56px;
+
+}
+.right3 p{
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.para3{
+  margin-top: -32px;
+  width: 690px;
+
+  line-height: 40px;
+
+}
+.page4{
+  width: 100%;
+  height: 595px;
+
+   display: flex;
+   padding-left: 184px;
+ padding-right: 30px;
+ padding-top: 30px;
+}
+.titel4{
+width: 597px;
+height: 400px;
+
+
+}
+.titel4 h1{
+  padding-top: 180px;
+  font-size: 60px;
+  line-height: 56px;
+  
+ width: 597px;
+
+}
+.para4{
+  font-size:29px;
+  
+  height: 74px;
+  width: 576px;
+  line-height: 36.2px;
+  margin-top: 6px;
+}
+.page4-image img{
+  width: 529px;
+  height: 401px;
+  margin-left: -17px;
+  margin-top: 101px;  
+}
+
+.page6{
+  width: 100%;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  
+  padding: 50px 12.5%;
+}
+.page6 h2{
+  margin-left: 104px;
+}
+
+.petti{
+  
+  width: 100%;
+  height:660px;
+}
+
+.kunj{
+  
+  width: 100%;
+  height:100px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  cursor: pointer;
+  background: #353739;
+  
+}
+.kunj:hover{
+  background: #444649;
+}
+
+.kunj span{
+  font-size: 30px;
+}
+.body-last-part{
+  width: 100%;
+  height:210px;
+  
+}
+
+.para-last{
+  height: 44px;
+  width: 100%;
+  
+}
+
+body-last-part{
+  width: 201px;
+  height: 149px;
+  
+} 
+
+
+.para-last p{
+  text-align: center;
+  font-size:25px;
+  margin-top: 56px;
+
+}.email-start-button-box{
+  
+  width: 100%;
+  height: 80px;
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+
+}
+.email-start-button-box input{
+  
+  width: 478px;
+  height: 73px;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-size: 22px;
+  background:transparent ;
+}
+
+
+.last-button{
+  width: 279px;
+  height: 73px;
+  margin-left: 9px;
+  color: white;
+  background-color: red;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+
+  
+}
+  .last-button:hover{
+    
+  } 
+.footer-language-button .button-pic{
+position: absolute;
+}
+
+
+  
+  
+.footer{
+  width: 100%;
+  height: 40px;
+  
+
+}
+
+
+
+.para-footer{
+ width: 100%;
+ height: 30px;
+ 
+ margin-left: 141px;
+ margin-top: 99px;
+}
+  
+
+
+
+   .footer-container-main{
+   width: 100%;
+  height: 200px;
+  
+  display: flex;
+  margin-left: 140px;
+  
+}
+  
+  
+
+.colum1{
+  width: 201px;
+  height: 149px;
+  
+  margin-right: 41px;
+  margin-top: 32px;
+}
+
+.colum2{
+  width: 201px;
+  height: 149px;
+  
+  margin-left: 94px;
+  margin-top: 32px;
+}
+  
+ 
+.colum3{
+  width: 201px;
+  height: 149px;
+  
+  margin-left: 140px;
+  margin-top: 32px;
+} 
+ 
+.colum4{
+  width: 201px;
+  height: 149px;
+  
+  margin-left: 140px;
+  margin-top: 32px;
+  
+} 
+
+
+.row1{
+width: 201px;
+height: 25px;
+background:black;
+
+margin-bottom: 17px;
+cursor: pointer;
+}
+.row1 p{
+  font-size: 15px;
+}
+  
+  .footer-language-button-2{
+    margin-left: 141px;
+    height :180px;
+    color: white;
+    position: relative;
+  }
+
+  .button-pic-2 {
+    
+    width: 22px;
+    position: absolute;
+    margin-left: 6px;
+    top: 24%;
+    height: 18px;
+    
+}
+
+.footer-language-button-2 .language-btn{
+  color: white;
+}
+  .last-word{font-size: 15px;
+    
+    
+    
+
+  }
+
+
+
+
+
